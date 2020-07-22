@@ -33,6 +33,6 @@ class UserSeeder extends Seeder
             'email'=> 'yolilayolandaylayeniferdeyofre@hotmail.com',
             'password'=> bcrypt('123456'),
         ]);
-        factory(User::class,10)->create();
+        //factory(User::class,10)->create();
     }
 }
