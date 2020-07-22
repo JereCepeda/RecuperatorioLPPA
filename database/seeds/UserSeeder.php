@@ -16,22 +16,22 @@ class UserSeeder extends Seeder
         User::create([
             'name'=> 'Arfeli Alejandro',
             'email'=> 'peladopetero@hotmail.com',
-            'password'=> bcrypt('avadak'),
+            'password'=> bcrypt('123456'),
         ]);
         User::create([
             'name'=> 'Tomas Rebot',
             'email'=> 'tomasitorebot@hotmail.com',
-            'password'=> bcrypt('avadak'),
+            'password'=> bcrypt('123456'),
         ]);
         User::create([
             'name'=> 'Jeremias Cepeda',
             'email'=> 'cepedajeremias@hotmail.com',
-            'password'=> bcrypt('avadak'),
+            'password'=> bcrypt('123456'),
         ]);
         User::create([
             'name'=> 'Yoli layolanda',
             'email'=> 'yolilayolandaylayeniferdeyofre@hotmail.com',
-            'password'=> bcrypt('avadak'),
+            'password'=> bcrypt('123456'),
         ]);
         factory(User::class,10)->create();
     }
